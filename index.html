@@ -13,6 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    
+ <!-- Font Awesome CDN -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 
     <!-- Sora Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,8 +36,42 @@
 </head>
 <body class="sora">
     <!-- Header Section -->
+ <nav class="bg-[#FFF9F4]">
+    <div class="navbar w-[95%] mx-auto">
+        <div class="navbar-start">
+            
+          
+          <div class="flex justify-center items-center gap-3 cursor-pointer">
+            <div ><img src="images/logo-header.png" alt=""></div>
+          <div><a class=" text-[1.625rem] font-normal hidden lg:block">Browse<span class="text-[#FFDC26]">4</span>Pets</a></div>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-[20px]">
+            <li><a>Find a Pet</a></li>
+            <li><a>Breeds</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-5 ">
+            <i class="fa-regular fa-bell text-[24px] cursor-pointer hidden lg:block"></i>
+            <i class="fa-solid fa-magnifying-glass text-[24px] cursor-pointer hidden lg:block"></i>
+          <button class="btn bg-transparent border-[#FFDC26] font-normal text-[20px] text-black px-[30px] py-[10px] hidden lg:block">Log In</button>
+          <button class="btn bg-[#FFDC26] border-0  font-normal text-[20px] text-black px-[30px] py-[10px] hidden lg:block">Register</button>
 
+          <div class="dropdown dropdown-left">
+            <div tabindex="0" role="button" class=" lg:hidden text-[30px] m-1"><i class="fa-solid fa-bars"></i></div>
+            <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow ">
+                <li><a>Find a Pet</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+          </div>
 
+        </div>
+      </div>
+      <hr class="lg:hidden border border-black">
+ </nav>
     <!-- Main Section -->
 
 
